@@ -71,16 +71,16 @@ The server is hosted on Render: [Menu Management API Live](https://menu-manageme
 
 Answers to Assignment Questions
 
-1. Which database you have chosen and why?
+1. Which database you have chosen and why? <br/>
    Ans: MongoDB was chosen for its flexibility, schema-less design, and ease of use with Node.js.
 
-2. 3 things that you learned from this assignment:
+2. 3 things that you learned from this assignment: <br/>
    Ans: Implementing CRUD operations using RESTful APIs.
          Structuring a Node.js project for scalability and maintainability.
          Connecting and working with MongoDB in a real-world application.
 
-3. What was the most difficult part of the assignment?
+3. What was the most difficult part of the assignment? <br/>
    Ans: Handling nested relationships between categories, subcategories, and items.
 
-4. What you would have done differently given more time?
+4. What you would have done differently given more time? <br/>
    Ans: If given more time, the implementation of additional features like user authentication and more complex search functionalities. Enhance documentation and create more detailed examples for API usage.
