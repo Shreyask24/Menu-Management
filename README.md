@@ -28,51 +28,46 @@ This project is a Node.js backend server for managing a menu with categories, su
    cd menu-management
 2.  ```bash
     npm install
-3. Configure MongoDB: Update the mongoDB/connection.js file with your MongoDB connection string if you're using a remote MongoDB instance.
-4. Start the server:
+3. Configure MongoDB:
+   Create .env file and enter your credentials
+5. Start the server:
    ```bash
-      node index
+   npm start
 
 The server will start on http://localhost:3000.
 
-API Endpoints:
+### API Endpoints:
 Categories:
-POST /api/categories: Create a new category
-GET /api/categories: Retrieve all categories
-GET /api/categories/
-: Retrieve a category by ID
-PUT /api/categories/
-: Update a category by ID
+1. POST /api/categories/category: Create a new category
+2. GET /api/categories/category: Retrieve all categories
+3. PUT /api/categories/category: Update categories
+4. GET /api/categories/category/:id : Retrieve a category by ID
+5. PUT /api/categories/category/:id : Update a category by ID
 
 Subcategories
-POST /api/subcategories: Create a new subcategory
-GET /api/subcategories: Retrieve all subcategories
-GET /api/subcategories/category/
-: Retrieve subcategories by category ID
-GET /api/subcategories/
-: Retrieve a subcategory by ID
-PUT /api/subcategories/
-: Update a subcategory by ID
+1. POST /api/subcategories/subcategory: Create a new subcategory
+2. GET /api/subcategories/subcategory: Retrieve all subcategories
+3. GET /api/subcategories/subcategory/category/:categoryId : Retrieve subcategories by category ID
+4. GET /api/subcategories/subcategory/:id : Retrieve a subcategory by ID
+5. PUT /api/subcategories/subcategory/:id : Update a subcategory by ID
 
 Items
-POST /api/items: Create a new item
-GET /api/items: Retrieve all items
-GET /api/items/category/
-: Retrieve items by category ID
-GET /api/items/subcategory/
-: Retrieve items by subcategory ID
-GET /api/items/
-: Retrieve an item by ID
-PUT /api/items/
-: Update an item by ID
-GET /api/items/search/
-: Search items by name
+1. POST /api/items/item: Create a new item
+2. GET /api/items: Retrieve all items
+3. GET /api/items/item/subcategory/:subCategoryId : Retrieve items by Subcategory ID
+4. GET /api/items/item/category/:categoryId : Retrieve items by Category ID
+5. GET /api/items/item/:id : Retrieve an item by ID
+6. PUT /api/items/item/:id : Update an item by ID
+7. GET /api/items/items/search/:name : Search items by name
 
-Loom Video
+## Loom Video
 A Loom video explaining all operations will be added soon. Link to Loom Video
 
-GitHub Repository
+## GitHub Repository
 The code is hosted on GitHub: [Menu Management API](https://github.com/Shreyask24/Menu-Management-API)
+
+## Live Link
+The server is hosted on Render: [Menu Management API Live](https://menu-management-api.onrender.com/)
 
 Answers to Assignment Questions
 
