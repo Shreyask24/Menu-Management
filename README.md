@@ -72,19 +72,20 @@ Loom Video
 A Loom video explaining all operations will be added soon. Link to Loom Video
 
 GitHub Repository
-The code is hosted on GitHub: Menu Management API
+The code is hosted on GitHub: [Menu Management API](https://github.com/Shreyask24/Menu-Management-API)
 
 Answers to Assignment Questions
-Which database you have chosen and why?
+
+1. Which database you have chosen and why?
 Ans: MongoDB was chosen for its flexibility, schema-less design, and ease of use with Node.js.
 
-3 things that you learned from this assignment:
+2. 3 things that you learned from this assignment:
 Ans: Implementing CRUD operations using RESTful APIs.
 Structuring a Node.js project for scalability and maintainability.
 Connecting and working with MongoDB in a real-world application.
 
-What was the most difficult part of the assignment?
+3. What was the most difficult part of the assignment?
 Ans: Handling nested relationships between categories, subcategories, and items.
 
-What you would have done differently given more time?
+4. What you would have done differently given more time?
 Ans: If given more time, the implementation of additional features like user authentication and more complex search functionalities. Enhance documentation and create more detailed examples for API usage.
