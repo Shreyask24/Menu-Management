@@ -1,10 +1,8 @@
 const mongoose = require('mongoose')
-
-// const MONGOURI = 'mongodb://localhost:27017'
-// const MONGODB = 'menu-management'
+require('dotenv').config();
 
 async function connectToMongo() {
-    mongoose.connect(`mongodb://localhost:27017/menu-management`)
+    mongoose.connect(process.env.MONGODB_CONNECT_URL)
         .then(() => {
             console.log('Connected');
         })

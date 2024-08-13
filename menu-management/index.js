@@ -3,6 +3,7 @@ const categoryRoutes = require('./routes/category');
 const subCategoryRoutes = require('./routes/subcategory');
 const itemRoutes = require('./routes/item');
 const connectToMongo = require("./mongoDB/connection");
+require('dotenv').config();
 
 connectToMongo()
 
@@ -19,7 +20,7 @@ app.use("/api/subcategories", subCategoryRoutes);
 app.use("/api/items", itemRoutes);
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
