@@ -61,7 +61,7 @@ Items
 7. GET /api/items/items/search/:name : Search items by name
 
 ## Loom Video
-A Loom video explaining all operations will be added soon. Link to Loom Video
+A Loom video explaining all operations: [Link to Loom Video](https://www.loom.com/share/21e9996beadc45378905718467c0a4e7?sid=12b215f0-8306-4e14-aea1-c40549d5d524)
 
 ## GitHub Repository
 The code is hosted on GitHub: [Menu Management API](https://github.com/Shreyask24/Menu-Management-API)
